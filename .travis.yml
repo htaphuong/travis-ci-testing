@@ -1,9 +1,5 @@
 language: java
 script:
-<<<<<<< HEAD
-  - ant test
+  - ant junit
   before_install:
     - cd java
-=======
-  - ant Test
->>>>>>> origin/dev-unittest-CTung
