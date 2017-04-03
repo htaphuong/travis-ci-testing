@@ -12,7 +12,7 @@ class CaptchaValidatorTest {
     @Test
     void isValidate_expectedCaptchaIsNull_ReturnFalse() {
         CaptchaValidator cv = new CaptchaValidator(new MockHttpRequest());
-
+    
         assertFalse(cv.isValidate("12345", null));
     }
     @Test
