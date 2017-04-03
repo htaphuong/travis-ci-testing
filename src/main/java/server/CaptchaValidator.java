@@ -25,7 +25,7 @@ public class CaptchaValidator extends AbstractValidator<String> {
 
     public boolean isValidate(String kaptchaReceived, String kaptchaExpected) {
         if (kaptchaReceived == null
-                || !kaptchaReceived.equalsIgnoreCase(kaptchaExpected)) {
+                || !kaptchaReceived.equalsIgnoreCase(kaptchaExpected) || !kaptchaExpected.equals(kaptchaReceived)) {
             return false;
         }
         return true;
