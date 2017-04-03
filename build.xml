@@ -1,6 +1,6 @@
 <project>
     <property name="main.src.dir" value="src" />
-    <property name="test.src.dir" value="Tests" />
+    <property name="test.src.dir" value="src/Tests" />
 
     <path id="classpath.base" />
 
