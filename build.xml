@@ -1,5 +1,5 @@
 <project>
-    <target name="junit" depends="jar">
+    <target name="junit">
         <junit printsummary="yes">
             <classpath>
                 <path refid="classpath"/>
