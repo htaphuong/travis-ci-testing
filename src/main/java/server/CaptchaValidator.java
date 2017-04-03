@@ -1,37 +1,34 @@
 package server;
 
-import org.apache.wicket.Request;
-import org.apache.wicket.RequestCycle;
-import org.apache.wicket.protocol.http.WebRequest;
 import org.apache.wicket.validation.IValidatable;
 import org.apache.wicket.validation.validator.AbstractValidator;
 
-import javax.servlet.http.HttpServletRequest;
-
-/**
- * Created by Phuong Huynh on 3/18/2017.
- */
 public class CaptchaValidator extends AbstractValidator<String> {
 
 
     private static final long serialVersionUID = 1L;
+    private final CaptchaRequester requester;
     private String INVALID_CODE = "captcha.invalid";
 
+    public CaptchaValidator(CaptchaRequester requester){
+        this.requester = requester;
+    }
     public void onValidate(IValidatable validatable) {
         String kaptchaReceived = (String) validatable.getValue();
 
-        Request request = RequestCycle.get().getRequest();
-        HttpServletRequest httpRequest = ((WebRequest) request)
-                .getHttpServletRequest();
+        String kaptchaExpected = this.requester.request();
 
-        String kaptchaExpected = (String) httpRequest.getSession()
-                .getAttribute(com.google.code.kaptcha.Constants.KAPTCHA_SESSION_KEY);
-
-        if (kaptchaReceived == null
-                || !kaptchaReceived.equalsIgnoreCase(kaptchaExpected)) {
+        if (!isValidate(kaptchaReceived, kaptchaExpected)) {
             error(validatable);
         }
+    }
 
+    public boolean isValidate(String kaptchaReceived, String kaptchaExpected) {
+        if (kaptchaReceived == null
+                || !kaptchaReceived.equalsIgnoreCase(kaptchaExpected)) {
+            return false;
+        }
+        return true;
     }
 
     // validate on numm value as well

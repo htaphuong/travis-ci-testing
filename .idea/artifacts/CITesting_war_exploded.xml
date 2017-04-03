@@ -7,6 +7,8 @@
           <element id="module-output" name="CITesting" />
         </element>
         <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: junit:junit:4.12" />
+          <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.3" />
           <element id="library" level="project" name="Maven: com.github.penggle:kaptcha:2.3.2" />
           <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.1.0" />
           <element id="library" level="project" name="Maven: com.jhlabs:filters:2.0.235-1" />
@@ -26,6 +28,15 @@
           <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.5.6" />
           <element id="library" level="project" name="Maven: log4j:log4j:1.2.14" />
+          <element id="library" level="project" name="Maven: org.junit.jupiter:junit-jupiter-api:5.0.0-M4" />
+          <element id="library" level="project" name="Maven: org.opentest4j:opentest4j:1.0.0-M2" />
+          <element id="library" level="project" name="Maven: org.junit.platform:junit-platform-console:1.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.junit.platform:junit-platform-launcher:1.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.junit.platform:junit-platform-engine:1.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.junit.platform:junit-platform-surefire-provider:1.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.maven.surefire:surefire-api:2.19.1" />
+          <element id="library" level="project" name="Maven: org.apache.maven.surefire:common-java5:2.19.1" />
+          <element id="library" level="project" name="Maven: org.junit.platform:junit-platform-commons:1.0.0-M3" />
         </element>
       </element>
       <element id="directory" name="META-INF">

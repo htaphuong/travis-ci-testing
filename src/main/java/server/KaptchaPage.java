@@ -22,7 +22,7 @@ public class KaptchaPage extends WebPage {
 
         TextField<String> captchaTF = new TextField<String>("captcha",
                 new PropertyModel<String>(this, "captchaInput"));
-        captchaTF.add(new CaptchaValidator());
+        captchaTF.add(new  CaptchaValidator(new HttpRequest()));
 
         Form<?> form = new Form<Void>("form") {
             @Override
