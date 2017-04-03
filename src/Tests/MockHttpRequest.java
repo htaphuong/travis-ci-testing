@@ -1,5 +1,3 @@
-package Test;
-
 import server.CaptchaRequester;
 
 /**

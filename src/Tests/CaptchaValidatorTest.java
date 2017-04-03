@@ -1,5 +1,3 @@
-package Test;
-
 import org.junit.jupiter.api.Test;
 import server.CaptchaValidator;
 
@@ -12,7 +10,7 @@ class CaptchaValidatorTest {
     @Test
     void isValidate_expectedCaptchaIsNull_ReturnFalse() {
         CaptchaValidator cv = new CaptchaValidator(new MockHttpRequest());
-    
+
         assertFalse(cv.isValidate("12345", null));
     }
     @Test
