@@ -1,3 +1,4 @@
 language: java
 script:
-  - ant test
+  - ant junit
+  - ant report
