@@ -2,70 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccc48e21-a3d9-4109-9a7f-be8da8a4335d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting.war" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/applicationContext.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/classes/WicketApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/classes/server/CaptchaImage$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/classes/server/CaptchaImage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/classes/server/CaptchaRequester.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/classes/server/CaptchaValidator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/classes/server/HttpRequest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/classes/server/KaptchaPage$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/classes/server/KaptchaPage$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/classes/server/KaptchaPage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/classes/server/KaptchaPage.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/classes/server/package.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/lib/cglib-nodep-2.1_3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/lib/common-java5-2.19.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/lib/commons-logging-1.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/lib/filters-2.0.235-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/lib/hamcrest-core-1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/lib/javax.servlet-api-3.1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/lib/junit-4.12.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/lib/junit-jupiter-api-5.0.0-M4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/lib/junit-platform-commons-1.0.0-M3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/lib/junit-platform-console-1.0.0-M3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/lib/junit-platform-engine-1.0.0-M3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/lib/junit-platform-launcher-1.0.0-M3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/lib/junit-platform-surefire-provider-1.0.0-M3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/lib/kaptcha-2.3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/lib/log4j-1.2.14.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/lib/opentest4j-1.0.0-M2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/lib/slf4j-api-1.5.8.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/lib/slf4j-log4j12-1.5.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/lib/spring-aop-3.0.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/lib/spring-asm-3.0.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/lib/spring-beans-3.0.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/lib/spring-context-3.0.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/lib/spring-core-3.0.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/lib/spring-expression-3.0.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/lib/spring-web-3.0.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/lib/surefire-api-2.19.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/lib/wicket-1.4.17.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/lib/wicket-ioc-1.4.17.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/lib/wicket-spring-1.4.17.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CITesting/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/WicketApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/server/CaptchaImage$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/server/CaptchaImage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/server/CaptchaRequester.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/server/CaptchaValidator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/server/HttpRequest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/server/KaptchaPage$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/server/KaptchaPage$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/server/KaptchaPage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/server/KaptchaPage.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/server/package.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-captchaValidatorTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/captchaValidatorTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/MockHttpRequest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/captchaValidatorTest.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -105,8 +42,8 @@
       <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+            <state relative-caret-position="51">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1090,7 +1027,7 @@
       <workItem from="1491206210996" duration="664000" />
       <workItem from="1491399814108" duration="1265000" />
       <workItem from="1491401593383" duration="129000" />
-      <workItem from="1491402193798" duration="12309000" />
+      <workItem from="1491402193798" duration="12550000" />
     </task>
     <servers />
   </component>
@@ -1127,7 +1064,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39604000" />
+    <option name="totallyTimeSpent" value="39845000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -1445,8 +1382,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
