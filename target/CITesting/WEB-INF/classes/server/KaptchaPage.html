@@ -1,0 +1,28 @@
+<html xmlns:wicket="http://www.w3.org/1999/xhtml">
+<head>
+    <style>
+        .feedbackPanelINFO {
+            color: green;
+        }
+
+        .feedbackPanelERROR {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Wicket + Kaptcha integration example</h1>
+<div wicket:id="feedback"></div>
+<form wicket:id="form">
+    <a wicket:id="link" title="Refresh image words">
+        <img wicket:id="kaptchaImage" /></a>
+    <br>
+    <label>Type the image words :</label>
+    <input type="text"wicket:id="captcha">
+    <input type="submit" value="Submit" />
+</form>
+
+</body>
+</html>
+
