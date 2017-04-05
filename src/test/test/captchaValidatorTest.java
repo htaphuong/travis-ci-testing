@@ -57,6 +57,6 @@ public class captchaValidatorTest {
     public void isValidate_receivedCaptcha_someCharIsUpperCase_ReturnFalse() {
         CaptchaValidator cv = new CaptchaValidator(new MockHttpRequest());
 
-        Assert.assertTrue(cv.isValidate("aBCd", "abcd"));
+        Assert.assertFalse(cv.isValidate("aBCd", "abcd"));
     }
 }
