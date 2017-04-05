@@ -2,6 +2,7 @@ language: java
 jdk:
   - oraclejdk8
 script:
+  - mvn clean install -U
   - mvn test
 after_failure:
   - cat target/surefire-reports/*.txt
