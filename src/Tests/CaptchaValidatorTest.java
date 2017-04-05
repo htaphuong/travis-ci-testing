@@ -7,6 +7,10 @@ import static org.junit.jupiter.api.Assertions.*;
  * Created by admin on 4/3/2017.
  */
 public class CaptchaValidatorTest {
+    public CaptchaValidatorTest(){
+
+    }
+
     @Test
     public void isValidate_expectedCaptchaIsNull_ReturnFalse() {
         CaptchaValidator cv = new CaptchaValidator(new MockHttpRequest());
