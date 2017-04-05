@@ -1,15 +1,17 @@
+package java;
+
 import org.junit.Assert;
 import org.junit.Test;
 import server.CaptchaValidator;
 
-/**
+/**s
  * Created by admin on 4/3/2017.
  */
 public class captchaValidatorTest {
 
     @Test
     public void isValidate_expectedCaptchaIsNull_ReturnFalse() {
-        CaptchaValidator cv = new CaptchaValidator(new MockHttpRequest());
+        CaptchaValidator cv = new CaptchaValidator(new java.MockHttpRequest());
 
         Assert.assertFalse(cv.isValidate("12345", null));
     }
