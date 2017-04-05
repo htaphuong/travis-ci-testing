@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <project>
     <property name="main.src.dir" value="src" />
     <property name="test.src.dir" value="src/Tests" />
