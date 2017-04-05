@@ -5,7 +5,7 @@ import server.CaptchaValidator;
 /**
  * Created by admin on 4/3/2017.
  */
-public class CaptchaValidatorTest {
+public class captchaValidatorTC {
 
     @Test
     public void isValidate_expectedCaptchaIsNull_ReturnFalse() {
