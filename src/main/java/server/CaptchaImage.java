@@ -2,8 +2,6 @@ package server;
 
 import com.google.code.kaptcha.Constants;
 import com.google.code.kaptcha.impl.DefaultKaptcha;
-import com.sun.image.codec.jpeg.JPEGCodec;
-import com.sun.image.codec.jpeg.JPEGImageEncoder;
 import org.apache.wicket.Request;
 import org.apache.wicket.RequestCycle;
 import org.apache.wicket.markup.html.image.NonCachingImage;
@@ -12,6 +10,7 @@ import org.apache.wicket.protocol.http.WebRequest;
 import org.apache.wicket.spring.injection.annot.SpringBean;
 import org.apache.wicket.util.io.ByteArrayOutputStream;
 
+import javax.imageio.ImageIO;
 import javax.servlet.http.HttpServletRequest;
 import java.awt.image.BufferedImage;
 
@@ -34,11 +33,11 @@ public class CaptchaImage extends NonCachingImage {
             public byte[] getImageData() {
                 ByteArrayOutputStream os = new ByteArrayOutputStream();
 
-                JPEGImageEncoder encoder = JPEGCodec.createJPEGEncoder(os);
+                //JPEGImageEncoder encoder = JPEGCodec.createJPEGEncoder(os);
 
                 try {
                     BufferedImage bi = getImageCaptchaService();
-                    encoder.encode(bi);
+                    ImageIO.write(bi, "JPEG", os);
                     return os.toByteArray();
                 } catch (Exception e) {
                     throw new RuntimeException(e);
