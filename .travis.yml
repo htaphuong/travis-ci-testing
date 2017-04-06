@@ -3,7 +3,7 @@ jdk:
   - oraclejdk8
 script:
   - mvn test
-  - mvn cobertura:cobertura
-  - cat target/site/cobertura/index.html
+after_success:
+  - mvn clean cobertura:cobertura coveralls:report
 after_failure:
   - cat target/surefire-reports/*.txt
