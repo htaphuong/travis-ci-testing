@@ -3,5 +3,6 @@ jdk:
   - oraclejdk8
 script:
   - mvn test
+  - mvn cobertura:cobertura
 after_failure:
   - cat target/surefire-reports/*.txt
