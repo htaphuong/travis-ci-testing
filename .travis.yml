@@ -3,6 +3,8 @@ jdk:
   - oraclejdk8
 script:
   - mvn test
+after_failure:
+  - cat target/surefire-reports/*.txt
 
 #comment here
 #after_success:
