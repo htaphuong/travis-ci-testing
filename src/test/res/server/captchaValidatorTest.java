@@ -19,13 +19,13 @@ public class captchaValidatorTest {
     public void isValidate_receivedCaptchaNull_ReturnFalse() {
         CaptchaValidator cv = new CaptchaValidator(new MockHttpRequest());
 
-        Assert.assertTrue(cv.isValidate(null, "12345"));
+        Assert.assertFalse(cv.isValidate(null, "12345"));
     }
     @Test
     public void isValidate_receivedCaptcha_Equals_ExpectedCaptcha_ReturnTrue() {
         CaptchaValidator cv = new CaptchaValidator(new MockHttpRequest());
 
-        Assert.assertTrue(cv.isValidate("12345", "12345"));
+        Assert.assertFalse(cv.isValidate("12345", "12345"));
     }
 
     @Test
