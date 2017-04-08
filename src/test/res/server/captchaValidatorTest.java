@@ -12,7 +12,7 @@ public class captchaValidatorTest {
     public void isValidate_expectedCaptchaIsNull_ReturnFalse() {
         CaptchaValidator cv = new CaptchaValidator(new MockHttpRequest());
 
-        Assert.assertTrue(cv.isValidate("12345", null));
+        Assert.assertFalse(cv.isValidate("12345", null));
     }
 
     @Test
@@ -25,7 +25,7 @@ public class captchaValidatorTest {
     public void isValidate_receivedCaptcha_Equals_ExpectedCaptcha_ReturnTrue() {
         CaptchaValidator cv = new CaptchaValidator(new MockHttpRequest());
 
-        Assert.assertFalse(cv.isValidate("12345", "12345"));
+        Assert.assertTrue(cv.isValidate("12345", "12345"));
     }
 
     @Test
