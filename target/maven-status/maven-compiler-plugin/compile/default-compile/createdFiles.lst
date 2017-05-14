@@ -1,0 +1,9 @@
+res\server\KaptchaPage.class
+res\server\KaptchaPage$2.class
+res\server\CaptchaRequester.class
+res\server\CaptchaValidator.class
+res\server\KaptchaPage$1.class
+res\server\CaptchaImage$1.class
+res\server\CaptchaImage.class
+res\server\HttpRequest.class
+java\WicketApplication.class

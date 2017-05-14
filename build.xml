@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<project>
+    <property name="main.src.dir" value="src" />
+    <property name="test.src.dir" value="src/Tests" />
+
+    <path id="classpath.base" />
+
+    <path id="classpath.test">
+        <pathelement location="lib/junit-4.12.jar" />
+        <path refid="classpath.base" />
+    </path>
+
+    <!--
+        <path id="classpath">
+            <fileset dir="${lib.dir}" includes="**/*.jar"/>
+        </path>-->
+
+    <target name="junit">
+        <junit printsummary="yes">
+            <classpath>
+                <path refid="classpath.test"/>
+            </classpath>
+
+            <batchtest fork="yes">
+                <fileset dir="${test.src.dir}" includes="*Test.java"/>
+            </batchtest>
+        </junit>
+    </target>
+
+    <!--    <target name="report">
+            <junitreport todir="${report.dir}">
+                <fileset dir="${report.dir}" includes="TEST-*.xml"/>
+                <report todir="${report.dir}"/>
+            </junitreport>
+        </target>-->
+
+</project>
